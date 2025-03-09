@@ -6,7 +6,7 @@ python src/download_corpora.py --dataset-name wikipedia-ja-20230720-100k
 python src/indexing.py \
     --backend fasttext \
     --model fasttext-ja-vectors \
-    --index src/fasttext-ja-vectors_wikipedia-ja-20230720-100k.h5 \
+    --index corpora/fasttext-ja-vectors_wikipedia-ja-20230720-100k.h5 \
     --num_workers 16 \
     --buffer_size 10000 \
     --chunk_size 1024 \
